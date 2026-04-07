@@ -1,0 +1,12 @@
+- ¿Que se espera ver?
+    Al ingresar desde otro dispositivo en la misma red, se deberia ver la pantalla de login en donde te pedira el token o un mensjae de pairing required.
+
+- ¿Que resultado indica que esta bien configurado?
+    Al ingresar, deberia poder verse la pantalla de inicio de sesion y solicita un token o el pairing required, significa que esta bien configurado.
+
+- ¿Que resultado seria una señal de peligro?
+    Si rechaza la conexion, esto puede ser por que el firewall esta bloqueando la entrada o una mala configuracion.
+    Si accede sin token ni pairing, la autenticacion esta desabilitada y cualquiera con acceso a la red podria ver mi chat y configuraciones.
+
+Despues de acceder desde mi dispositivo movil, cargo la pantalla de login y solicita el token.
+Al intentar acceder a una ruta API, me redirige a la pantalla de login y solicita el token. Esto se clasifica como un auth real.

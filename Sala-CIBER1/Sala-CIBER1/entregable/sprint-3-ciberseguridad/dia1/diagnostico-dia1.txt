@@ -1,0 +1,12 @@
+- ¿Que esperas ver en la terminal?
+    Se deberia ver la ip local y remota en 0.0.0.0 en estado de "LISTENING"
+
+- ¿Que resultado indica que esta bien configurado?
+    El indicador seria la palabra "LISTENING", esto significa que la computadora reservo el puerto para recibir conexiones.
+
+- ¿Que resultado seria una señal de peligro?
+    Que no aparezca nada, esto significa que hay un error el el archivo docker-compose.yml.
+    Tambien si aparece "CLOSE_WAIT" o "TIME_WAIT", significa que el servidor esta saturado.
+    Si la direccion local esta en 127.0.0.1, significa que el "bind" esta en modo local por lo que solo la PC tendra acceso.
+
+Despues de colocar el comando el PID es de 18756 y el puerto que usa es 18789

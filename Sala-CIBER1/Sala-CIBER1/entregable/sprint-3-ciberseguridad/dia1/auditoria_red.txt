@@ -1,0 +1,10 @@
+- ¿Qué esperas ver en la terminal?
+    Se espera ver la direccion ip local, la direccion remota y el PID.
+
+- ¿Qué resultado indica que está bien configurado?
+    El indicador seria el estado "LISTENING" que es señal de que OpenClaw esta reservando el puerto y esperando conexiones.
+
+- ¿Qué resultado sería una señal de peligro?
+    Si al investigar el PID, nos conduce a otro programa, esto puede ser signo de un conflicto de puertos.
+
+El resultado del analisis muestra que la direccion IP es 0.0.0.0, lo que se podria considerar que esta abierto a toda la red local que en este caso seria una red de casa.

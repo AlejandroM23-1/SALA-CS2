@@ -1,0 +1,15 @@
+- ¿Qué esperas ver en la terminal?
+    En este caso en la ventana del navegador se deberia ver una pagina con texto plano, tambien puede que aparezca en mensaje de error 401 o 403 que son mensajes de no autorizado o prohibido.
+
+- ¿Qué resultado indica que está bien configurado?
+    Lo ideal seria que muestre el mensaje de error ya que no muestra ninguna informacion de las apiKey o los modelos, tambien es posible que te redirija a la pantalla de login.
+
+- ¿Qué resultado sería una señal de peligro?
+    Si se visualiza una lista de modelos, es posible que el token de seguridad este en modo "none" lo que permite que cualquiera pueda ver las configuracones.
+    Si se ve un mensaje de pagina no encontrada o el error 500, esto es debido a que algunos archivos estan corruptos.
+
+Al colocar localhost:PUERTO, se muestra la pagina de login y solicita el token para acceder. Esto se considera un Auth real.
+Al colocar localhost:PUERTO/api, se muestra en texto plano "not found". Esto podria ser un Falso Positivo, debido a que la ruta no existe.
+Al colocar localhost:PUERTO/admin, me redirecciona al login con un mensaje de no autorizado. Esto se considera un Auth real.
+Al colocar localhost:PUERTO/vl, me redirecciona al login con un mensaje de no autorizado. Esto se considera un Auth real.
+Al colocar localhost:PUERTO/tools, me redirecciona al login con un mensaje de no autorizado. Esto se considera un Auth real.

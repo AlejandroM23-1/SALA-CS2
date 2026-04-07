@@ -1,0 +1,12 @@
+- ¿Que esperas ver en la terminal?
+    Se espera ver que el gateway esta con la configuacion bind: lan, que es para poder acceder a OpenClaw desde el navegador.
+
+- ¿Que resultado indica que está bien configurado?
+    Que este habilitado el token y la autenticacion, tambien los puertos.
+
+- ¿Que resultado sería una señal de peligro?
+    Que este deshabilitado el metodo de autenticacion o que simplemente este vacio.
+
+En la tarea, se nos pide cambiar el binding a 127.0.0.1, si hago esto, no podre ingresar por el navegador a la pagina de OpenClaw.
+Para este caso, agregaremos el 127.0.0.1 en los puertos del docker-compose.yml de esta forma estara limitando el acceso a solo la pc y no a dispositivos externos.
+Al realizar los pasos de la seccion B, la direccion IP cambio de 0.0.0.0 a 127.0.0.1

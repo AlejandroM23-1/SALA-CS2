@@ -1,0 +1,7 @@
+Campo : Contenido
+Evaluador: Alexader Arhuata
+Evaluado: Manuel Rivera
+Escenario Elegido: ¿Qué diferencia encontraron entre autenticación real y cosmética en la Sección C? ¿Cómo lo probaron?
+Resumen de la Respuesta: La autenticación real verifica el token antes de acceder y la autenticación cosmética solo hubiera dejado ingresar sin un token, esto se confirmo al intentar ingrasar a una ruta API.
+Que entendio bien: El proceso de comprobacion.
+Que necesita repasar: Mas diferencias.

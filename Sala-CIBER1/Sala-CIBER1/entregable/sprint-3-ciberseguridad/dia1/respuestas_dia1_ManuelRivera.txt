@@ -1,0 +1,2 @@
+Lo que aprendimos este dia, fue a como tener los permisos necesarios, al cambiar el puerto de 0.0.0.0 a 127.0.0.1 aplicamos este principio ya que el contendor solo es visible para uno mismo y no para toda la red.
+Adicionalmente al crear la carpeta .openclaw en Docker, tambien aplicamos este principio ya que el contendor solo tiene permisos para esa carpeta y no puede acceder a otras carpetas del sistema.
